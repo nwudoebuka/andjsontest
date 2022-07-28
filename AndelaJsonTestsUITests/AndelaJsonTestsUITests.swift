@@ -2,7 +2,7 @@
 //  AndelaJsonTestsUITests.swift
 //  AndelaJsonTestsUITests
 //
-//  Created by WEMABANK on 28/07/2022.
+//  Created by Chukwuebuka Nwudo on 28/07/2022.
 //
 
 import XCTest
