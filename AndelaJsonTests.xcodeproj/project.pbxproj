@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5E9EB6A28930AAF0068C493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9EB6928930AAF0068C493 /* AppDelegate.swift */; };
+		F5E9EB6C28930AAF0068C493 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9EB6B28930AAF0068C493 /* SceneDelegate.swift */; };
+		F5E9EB6E28930AAF0068C493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9EB6D28930AAF0068C493 /* ViewController.swift */; };
+		F5E9EB7128930AAF0068C493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E9EB6F28930AAF0068C493 /* Main.storyboard */; };
+		F5E9EB7428930AAF0068C493 /* AndelaJsonTests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5E9EB7228930AAF0068C493 /* AndelaJsonTests.xcdatamodeld */; };
+		F5E9EB7628930AB10068C493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E9EB7528930AB10068C493 /* Assets.xcassets */; };
+		F5E9EB7928930AB10068C493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E9EB7728930AB10068C493 /* LaunchScreen.storyboard */; };
+		F5E9EB8428930AB10068C493 /* AndelaJsonTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9EB8328930AB10068C493 /* AndelaJsonTestsTests.swift */; };
+		F5E9EB8E28930AB10068C493 /* AndelaJsonTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9EB8D28930AB10068C493 /* AndelaJsonTestsUITests.swift */; };
+		F5E9EB9028930AB10068C493 /* AndelaJsonTestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9EB8F28930AB10068C493 /* AndelaJsonTestsUITestsLaunchTests.swift */; };
+		F5E9EBA228930EA40068C493 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9EBA128930EA40068C493 /* MainTableViewCell.swift */; };
+		F5E9EBA6289315390068C493 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9EBA5289315390068C493 /* Service.swift */; };
+		F5E9EBA8289315840068C493 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9EBA7289315840068C493 /* EventModel.swift */; };
+		F5E9EBAA2893170E0068C493 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9EBA92893170E0068C493 /* MockService.swift */; };
+		F5E9EBAC289317910068C493 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9EBAB289317910068C493 /* MainViewModel.swift */; };
+		F5E9EBAE28931DC20068C493 /* jsondata.json in Resources */ = {isa = PBXBuildFile; fileRef = F5E9EBAD28931B760068C493 /* jsondata.json */; };
+		F5E9EBB0289320430068C493 /* JsonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9EBAF289320430068C493 /* JsonError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5E9EB8028930AB10068C493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E9EB5E28930AAF0068C493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E9EB6528930AAF0068C493;
+			remoteInfo = AndelaJsonTests;
+		};
+		F5E9EB8A28930AB10068C493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E9EB5E28930AAF0068C493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E9EB6528930AAF0068C493;
+			remoteInfo = AndelaJsonTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5E9EB6628930AAF0068C493 /* AndelaJsonTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndelaJsonTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E9EB6928930AAF0068C493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5E9EB6B28930AAF0068C493 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5E9EB6D28930AAF0068C493 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5E9EB7028930AAF0068C493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5E9EB7328930AAF0068C493 /* AndelaJsonTests.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AndelaJsonTests.xcdatamodel; sourceTree = "<group>"; };
+		F5E9EB7528930AB10068C493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5E9EB7828930AB10068C493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5E9EB7A28930AB10068C493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E9EB7F28930AB10068C493 /* AndelaJsonTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndelaJsonTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E9EB8328930AB10068C493 /* AndelaJsonTestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndelaJsonTestsTests.swift; sourceTree = "<group>"; };
+		F5E9EB8928930AB10068C493 /* AndelaJsonTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndelaJsonTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E9EB8D28930AB10068C493 /* AndelaJsonTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndelaJsonTestsUITests.swift; sourceTree = "<group>"; };
+		F5E9EB8F28930AB10068C493 /* AndelaJsonTestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndelaJsonTestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5E9EBA128930EA40068C493 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		F5E9EBA5289315390068C493 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		F5E9EBA7289315840068C493 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		F5E9EBA92893170E0068C493 /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		F5E9EBAB289317910068C493 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		F5E9EBAD28931B760068C493 /* jsondata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jsondata.json; sourceTree = "<group>"; };
+		F5E9EBAF289320430068C493 /* JsonError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonError.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5E9EB6328930AAF0068C493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9EB7C28930AB10068C493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9EB8628930AB10068C493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5E9EB5D28930AAF0068C493 = {
+			isa = PBXGroup;
+			children = (
+				F5E9EB6828930AAF0068C493 /* AndelaJsonTests */,
+				F5E9EB8228930AB10068C493 /* AndelaJsonTestsTests */,
+				F5E9EB8C28930AB10068C493 /* AndelaJsonTestsUITests */,
+				F5E9EB6728930AAF0068C493 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E9EB6728930AAF0068C493 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9EB6628930AAF0068C493 /* AndelaJsonTests.app */,
+				F5E9EB7F28930AB10068C493 /* AndelaJsonTestsTests.xctest */,
+				F5E9EB8928930AB10068C493 /* AndelaJsonTestsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E9EB6828930AAF0068C493 /* AndelaJsonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9EBAD28931B760068C493 /* jsondata.json */,
+				F5E9EBA028930E4E0068C493 /* Supporting Files */,
+				F5E9EB9F28930AF60068C493 /* View */,
+				F5E9EB9E28930AED0068C493 /* Network */,
+				F5E9EB9D28930AE30068C493 /* ViewModel */,
+				F5E9EB9C28930AD50068C493 /* Model */,
+				F5E9EB6928930AAF0068C493 /* AppDelegate.swift */,
+				F5E9EB7A28930AB10068C493 /* Info.plist */,
+				F5E9EB7228930AAF0068C493 /* AndelaJsonTests.xcdatamodeld */,
+			);
+			path = AndelaJsonTests;
+			sourceTree = "<group>";
+		};
+		F5E9EB8228930AB10068C493 /* AndelaJsonTestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9EB8328930AB10068C493 /* AndelaJsonTestsTests.swift */,
+			);
+			path = AndelaJsonTestsTests;
+			sourceTree = "<group>";
+		};
+		F5E9EB8C28930AB10068C493 /* AndelaJsonTestsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9EB8D28930AB10068C493 /* AndelaJsonTestsUITests.swift */,
+				F5E9EB8F28930AB10068C493 /* AndelaJsonTestsUITestsLaunchTests.swift */,
+			);
+			path = AndelaJsonTestsUITests;
+			sourceTree = "<group>";
+		};
+		F5E9EB9C28930AD50068C493 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9EBA7289315840068C493 /* EventModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5E9EB9D28930AE30068C493 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9EBAB289317910068C493 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F5E9EB9E28930AED0068C493 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9EBA5289315390068C493 /* Service.swift */,
+				F5E9EBA92893170E0068C493 /* MockService.swift */,
+				F5E9EBAF289320430068C493 /* JsonError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F5E9EB9F28930AF60068C493 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9EB6D28930AAF0068C493 /* ViewController.swift */,
+				F5E9EB6F28930AAF0068C493 /* Main.storyboard */,
+				F5E9EBA128930EA40068C493 /* MainTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5E9EBA028930E4E0068C493 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9EB6B28930AAF0068C493 /* SceneDelegate.swift */,
+				F5E9EB7528930AB10068C493 /* Assets.xcassets */,
+				F5E9EB7728930AB10068C493 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5E9EB6528930AAF0068C493 /* AndelaJsonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E9EB9328930AB10068C493 /* Build configuration list for PBXNativeTarget "AndelaJsonTests" */;
+			buildPhases = (
+				F5E9EB6228930AAF0068C493 /* Sources */,
+				F5E9EB6328930AAF0068C493 /* Frameworks */,
+				F5E9EB6428930AAF0068C493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndelaJsonTests;
+			productName = AndelaJsonTests;
+			productReference = F5E9EB6628930AAF0068C493 /* AndelaJsonTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5E9EB7E28930AB10068C493 /* AndelaJsonTestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E9EB9628930AB10068C493 /* Build configuration list for PBXNativeTarget "AndelaJsonTestsTests" */;
+			buildPhases = (
+				F5E9EB7B28930AB10068C493 /* Sources */,
+				F5E9EB7C28930AB10068C493 /* Frameworks */,
+				F5E9EB7D28930AB10068C493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E9EB8128930AB10068C493 /* PBXTargetDependency */,
+			);
+			name = AndelaJsonTestsTests;
+			productName = AndelaJsonTestsTests;
+			productReference = F5E9EB7F28930AB10068C493 /* AndelaJsonTestsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5E9EB8828930AB10068C493 /* AndelaJsonTestsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E9EB9928930AB10068C493 /* Build configuration list for PBXNativeTarget "AndelaJsonTestsUITests" */;
+			buildPhases = (
+				F5E9EB8528930AB10068C493 /* Sources */,
+				F5E9EB8628930AB10068C493 /* Frameworks */,
+				F5E9EB8728930AB10068C493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E9EB8B28930AB10068C493 /* PBXTargetDependency */,
+			);
+			name = AndelaJsonTestsUITests;
+			productName = AndelaJsonTestsUITests;
+			productReference = F5E9EB8928930AB10068C493 /* AndelaJsonTestsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5E9EB5E28930AAF0068C493 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F5E9EB6528930AAF0068C493 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					F5E9EB7E28930AB10068C493 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = F5E9EB6528930AAF0068C493;
+					};
+					F5E9EB8828930AB10068C493 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = F5E9EB6528930AAF0068C493;
+					};
+				};
+			};
+			buildConfigurationList = F5E9EB6128930AAF0068C493 /* Build configuration list for PBXProject "AndelaJsonTests" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5E9EB5D28930AAF0068C493;
+			productRefGroup = F5E9EB6728930AAF0068C493 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5E9EB6528930AAF0068C493 /* AndelaJsonTests */,
+				F5E9EB7E28930AB10068C493 /* AndelaJsonTestsTests */,
+				F5E9EB8828930AB10068C493 /* AndelaJsonTestsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5E9EB6428930AAF0068C493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E9EBAE28931DC20068C493 /* jsondata.json in Resources */,
+				F5E9EB7928930AB10068C493 /* LaunchScreen.storyboard in Resources */,
+				F5E9EB7628930AB10068C493 /* Assets.xcassets in Resources */,
+				F5E9EB7128930AAF0068C493 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9EB7D28930AB10068C493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9EB8728930AB10068C493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5E9EB6228930AAF0068C493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E9EBB0289320430068C493 /* JsonError.swift in Sources */,
+				F5E9EB6E28930AAF0068C493 /* ViewController.swift in Sources */,
+				F5E9EB6A28930AAF0068C493 /* AppDelegate.swift in Sources */,
+				F5E9EB7428930AAF0068C493 /* AndelaJsonTests.xcdatamodeld in Sources */,
+				F5E9EB6C28930AAF0068C493 /* SceneDelegate.swift in Sources */,
+				F5E9EBA8289315840068C493 /* EventModel.swift in Sources */,
+				F5E9EBA228930EA40068C493 /* MainTableViewCell.swift in Sources */,
+				F5E9EBA6289315390068C493 /* Service.swift in Sources */,
+				F5E9EBAA2893170E0068C493 /* MockService.swift in Sources */,
+				F5E9EBAC289317910068C493 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9EB7B28930AB10068C493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E9EB8428930AB10068C493 /* AndelaJsonTestsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9EB8528930AB10068C493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E9EB8E28930AB10068C493 /* AndelaJsonTestsUITests.swift in Sources */,
+				F5E9EB9028930AB10068C493 /* AndelaJsonTestsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5E9EB8128930AB10068C493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E9EB6528930AAF0068C493 /* AndelaJsonTests */;
+			targetProxy = F5E9EB8028930AB10068C493 /* PBXContainerItemProxy */;
+		};
+		F5E9EB8B28930AB10068C493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E9EB6528930AAF0068C493 /* AndelaJsonTests */;
+			targetProxy = F5E9EB8A28930AB10068C493 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5E9EB6F28930AAF0068C493 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E9EB7028930AAF0068C493 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5E9EB7728930AB10068C493 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E9EB7828930AB10068C493 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5E9EB9128930AB10068C493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5E9EB9228930AB10068C493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5E9EB9428930AB10068C493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S44H7ZBAXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AndelaJsonTests/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.json.AndelaJsonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5E9EB9528930AB10068C493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S44H7ZBAXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AndelaJsonTests/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.json.AndelaJsonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5E9EB9728930AB10068C493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S44H7ZBAXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.json.AndelaJsonTestsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndelaJsonTests.app/AndelaJsonTests";
+			};
+			name = Debug;
+		};
+		F5E9EB9828930AB10068C493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S44H7ZBAXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.json.AndelaJsonTestsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndelaJsonTests.app/AndelaJsonTests";
+			};
+			name = Release;
+		};
+		F5E9EB9A28930AB10068C493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S44H7ZBAXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.json.AndelaJsonTestsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AndelaJsonTests;
+			};
+			name = Debug;
+		};
+		F5E9EB9B28930AB10068C493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S44H7ZBAXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.json.AndelaJsonTestsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AndelaJsonTests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E9EB6128930AAF0068C493 /* Build configuration list for PBXProject "AndelaJsonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E9EB9128930AB10068C493 /* Debug */,
+				F5E9EB9228930AB10068C493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E9EB9328930AB10068C493 /* Build configuration list for PBXNativeTarget "AndelaJsonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E9EB9428930AB10068C493 /* Debug */,
+				F5E9EB9528930AB10068C493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E9EB9628930AB10068C493 /* Build configuration list for PBXNativeTarget "AndelaJsonTestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E9EB9728930AB10068C493 /* Debug */,
+				F5E9EB9828930AB10068C493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E9EB9928930AB10068C493 /* Build configuration list for PBXNativeTarget "AndelaJsonTestsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E9EB9A28930AB10068C493 /* Debug */,
+				F5E9EB9B28930AB10068C493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5E9EB7228930AAF0068C493 /* AndelaJsonTests.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5E9EB7328930AAF0068C493 /* AndelaJsonTests.xcdatamodel */,
+			);
+			currentVersion = F5E9EB7328930AAF0068C493 /* AndelaJsonTests.xcdatamodel */;
+			path = AndelaJsonTests.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5E9EB5E28930AAF0068C493 /* Project object */;
+}

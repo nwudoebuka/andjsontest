@@ -1,0 +1,40 @@
+{
+  "events":[
+     {
+       "id":1,
+       "city": "Tokyo",
+       "artist": "C Boy",
+       "price": 12000
+     },
+     {
+       "id":2,
+       "city": "Helsinki",
+       "artist": "Emi Brown",
+       "price": 20000
+     },
+     {
+       "id":3,
+       "city": "Nairobi",
+       "artist": "Intana Legacy",
+       "price": 38000
+     },
+     {
+       "id":4,
+       "city": "Belgium",
+       "artist": "Young Pride",
+       "price": 50000
+     },
+     {
+       "id":5,
+       "city": "Abuja",
+       "artist": "Yo Kid",
+       "price": 7000
+     },
+     {
+       "id":6,
+       "city": "Munich",
+       "artist": "Don Tom",
+       "price": 9000
+     }
+  ]
+}
