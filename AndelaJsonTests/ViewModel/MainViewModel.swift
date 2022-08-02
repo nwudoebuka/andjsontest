@@ -22,7 +22,7 @@ protocol EventsViewModelDelegate: AnyObject {
 final class MainViewModel: NSObject  {
     private var apiLoader: ServiceProtocol?
     public weak var delegate:EventsViewModelDelegate?
-    var eventList: [Event]?
+    var eventList: [EventModel]?
     var errorMessage: String?
     required init(apiLoader: ServiceProtocol = Service()) {
         self.apiLoader = apiLoader
@@ -38,9 +38,11 @@ final class MainViewModel: NSObject  {
     
             switch result {
             case .success(let response):
-              self.eventList = response.events
+             
+              self.eventList = response.children
               self.delegate?.EventsViewModelDidTransitionToState(model: self, state: .EventsViewModelDidEndRetrievingItems)
             case .failure(let failure):
+              debugPrint("failed viewmodel \(failure)")
               self.errorMessage = failure.localizedDescription
               self.delegate?.EventsViewModelDidTransitionToState(model: self, state: .EventsViewModelDidFailToRetrieveItems)
            

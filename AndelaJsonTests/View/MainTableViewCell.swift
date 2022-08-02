@@ -26,7 +26,7 @@ class MainTableViewCell: UITableViewCell {
   
   func configure(event: Event){
     titleLabel?.text = event.city
-    descriptionLabel?.text = event.artist
+    descriptionLabel?.text = event.name
     amountLabel?.text = "# \(String(event.price))"
   }
 
